@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.calculator-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.control-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card {
+    width: 280px;
+    margin: 0 3px;
+    padding: 6px;
+}
+
+.control-input-wrapper {
+    display: flex;
+}
+
+.input-group {
+    flex-direction: column;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    width: auto;
+}
+
+.form-check.form-switch {
+    width: 100%;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.custom-layout-wrapper {
+    width: 100%;
+}
+
+.total-block-wrapper {
+    padding: 20px;
+}
+
+.total-list-block {
+    padding: 10px;
+}
+
+.input-group-text {
+    padding: 1px 5px;
+}
+
+.btn {
+    padding: 5px 5px;
+    display: flex;
+}
+
+.form-control {
+    padding: 1px;
+}
